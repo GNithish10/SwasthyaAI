@@ -26,7 +26,7 @@ export function LoginPage() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
       <Tabs defaultValue="login" className="w-[400px]">
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="login">Login</TabsTrigger>
@@ -95,6 +95,23 @@ export function LoginPage() {
           </Card>
         </TabsContent>
       </Tabs>
+      {/* Tip box with demo credentials */}
+      <div className="mt-6 w-[400px]">
+        <div className="bg-blue-50 border border-blue-300 text-blue-900 px-4 py-3 rounded shadow-sm text-sm">
+          <strong className="block mb-1">Demo Credentials</strong>
+          <div>
+            <span className="font-medium">Username:</span>{" "}
+            <span className="font-mono">demo</span>
+          </div>
+          <div>
+            <span className="font-medium">Password:</span>{" "}
+            <span className="font-mono">demo123</span>
+          </div>
+          <div className="mt-2 text-xs text-blue-700">
+            Use these credentials to try the app.
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
