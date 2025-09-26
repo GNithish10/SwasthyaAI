@@ -1,6 +1,5 @@
 # SwasthyaAI  
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
 [![Demo](https://img.shields.io/badge/Demo‑Live‑Application-blue.svg)](https://swasthya-ai-chi.vercel.app)  
 
 A modern health/medical AI frontend app built with React, TypeScript, Vite and TailwindCSS.  
@@ -20,9 +19,9 @@ https://swasthya-ai-chi.vercel.app
 - **Language**: TypeScript  
 - **UI / Component Library**: React + shadcn‑ui  
 - **Styling**: Tailwind CSS  
-- **Backend / Data**: (if you have a backend or API, mention here)  
-- **Database / Storage**: (if applicable)  
-- **Authentication / Hosting**: (e.g. Supabase, Firebase, etc.)  
+- **Backend / Data**: Python - FastAPI 
+- **Database / Storage**: PostgreSQL
+- **Authentication / Hosting**: Vercel  
 
 ---
 
@@ -103,8 +102,8 @@ Here are some of the features SwasthyaAI currently supports (you may add, remove
 - User input forms for symptoms or health data  
 - Interactive UI with React + shadcn‑ui components  
 - Responsive design for mobile & desktop  
-- (If applicable) Authentication / user accounts  
-- (If applicable) Real‑time data via backend / database  
+- Authentication / user accounts  
+- Real‑time data via backend / database  
 
 ---
 
@@ -132,28 +131,22 @@ Please follow the coding style used in the project and include tests where relev
 
 ---
 
-## 🧾 License  
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 📬 Contact  
 
-- **Author**: GNithish10  
+- **Author**: Logorhythms  
 - **Repository**: https://github.com/GNithish10/SwasthyaAI  
-- **Email**: (optional, if you want to provide)  
 
 ---
 
 ## ⚠️ Notes / Future Work  
 
-- Add backend / API support for model inference (if not already)  
+- Add backend / API support for model inference  
 - Add more health modules (e.g. disease prediction, lab test interpretation)  
 - Improve UI / UX, accessibility  
 - Add tests, CI/CD workflows  
 - Add mobile app (React Native / Flutter)  
-- Add user authentication, user profiles, history, analytics  
+- Add user authentication, user profiles, history, analytics
+- Add SMS and Whatsapp Api
 
 ---
 
