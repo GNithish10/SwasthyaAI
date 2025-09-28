@@ -17,12 +17,12 @@ export function LoginPage() {
 
   const handleLogin = () => {
     // TODO: Implement actual login logic here
-    navigate("/home");
+    navigate("/index");
   };
 
   const handleSignUp = () => {
     // TODO: Implement actual sign up logic here
-    navigate("/home");
+    navigate("/index");
   };
 
   return (

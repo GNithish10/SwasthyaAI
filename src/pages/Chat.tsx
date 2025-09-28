@@ -15,7 +15,14 @@ const Chat = () => {
   const [inputMessage, setInputMessage] = useState("");
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
-  const { messages, userProfile, isTyping, sendMessage, symptomState, handleSymptomAnswer } = useChat(language);
+  const {
+    messages,
+    userProfile,
+    isTyping,
+    sendMessage,
+    symptomState,
+    handleSymptomAnswer,
+  } = useChat(language);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -50,7 +57,7 @@ const Chat = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <Button asChild variant="ghost" size="sm">
-                <Link to="/home" className="flex items-center gap-2">
+                <Link to="/index" className="flex items-center gap-2">
                   <ArrowLeft className="w-4 h-4" />
                   Back
                 </Link>
