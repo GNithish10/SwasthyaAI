@@ -1,73 +1,153 @@
-# Welcome to your Lovable project
+# SwasthyaAI  
 
-## Project info
+[![Demo](https://img.shields.io/badge/Demo‑Live‑Application-blue.svg)](https://swasthya-ai-chi.vercel.app)  
 
-**URL**: https://lovable.dev/projects/d08fa89e-2fa5-4333-8bc3-cc8ab488d838
+A modern health/medical AI frontend app built with React, TypeScript, Vite and TailwindCSS.  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Live Demo  
 
-**Use Lovable**
+Check out the live deployed version here:  
+https://swasthya-ai-chi.vercel.app  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d08fa89e-2fa5-4333-8bc3-cc8ab488d838) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧱 Tech Stack  
 
-**Use your preferred IDE**
+- **Framework / Bundler**: Vite  
+- **Language**: TypeScript  
+- **UI / Component Library**: React + shadcn‑ui  
+- **Styling**: Tailwind CSS  
+- **Backend / Data**: Python - FastAPI 
+- **Database / Storage**: PostgreSQL
+- **Authentication / Hosting**: Vercel  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Project Structure  
 
-Follow these steps:
+Below is a high‑level overview of the folder structure:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```
+/
+├── public/  
+├── src/  
+│   ├── components/  
+│   ├── pages/  
+│   ├── styles/  
+│   ├── utils/  
+│   └── …  
+├── supabase/        # (if your backend uses Supabase)  
+├── package.json  
+├── tsconfig.json  
+├── vite.config.ts  
+└── …  
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+You can explore the full structure in the repository.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🛠️ Getting Started  
+
+### Prerequisites  
+
+- Node.js (>= 16 recommended)  
+- npm or yarn  
+
+### Installation  
+
+```bash
+git clone https://github.com/GNithish10/SwasthyaAI.git  
+cd SwasthyaAI  
+npm install  
+```
+
+Or, if you prefer yarn:
+
+```bash
+yarn install  
+```
+
+### Running in Development Mode  
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+This will start a local development server (Vite) with hot reload.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production  
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This generates the optimized production build in the `dist/` folder.
 
-## What technologies are used for this project?
+### Preview Production Build Locally  
 
-This project is built with:
+```bash
+npm run preview
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🧩 Features  
 
-Simply open [Lovable](https://lovable.dev/projects/d08fa89e-2fa5-4333-8bc3-cc8ab488d838) and click on Share -> Publish.
+Here are some of the features SwasthyaAI currently supports (you may add, remove or refine):
 
-## Can I connect a custom domain to my Lovable project?
+- AI / ML powered health diagnostics or recommendations  
+- User input forms for symptoms or health data  
+- Interactive UI with React + shadcn‑ui components  
+- Responsive design for mobile & desktop  
+- Authentication / user accounts  
+- Real‑time data via backend / database  
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🧪 Testing  
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+(If you have tests, mention how to run them. If not, you can omit or plan to add this.)
+
+```bash
+npm run test
+```
+
+---
+
+## ✅ Contribution  
+
+Contributions, issues, and feature requests are welcome!  
+
+1. Fork the repository  
+2. Create a new branch: `git checkout -b feature/MyFeature`  
+3. Commit your changes: `git commit -m 'Add some feature'`  
+4. Push to the branch: `git push origin feature/MyFeature`  
+5. Open a Pull Request  
+
+Please follow the coding style used in the project and include tests where relevant.
+
+---
+
+## 📬 Contact  
+
+- **Author**: Logorhythms  
+- **Repository**: https://github.com/GNithish10/SwasthyaAI  
+
+---
+
+## ⚠️ Notes / Future Work  
+
+- Add backend / API support for model inference  
+- Add more health modules (e.g. disease prediction, lab test interpretation)  
+- Improve UI / UX, accessibility  
+- Add tests, CI/CD workflows  
+- Add mobile app (React Native / Flutter)  
+- Add user authentication, user profiles, history, analytics
+- Add SMS and Whatsapp Api
+
+---
+
+Thank you for checking out **SwasthyaAI**!  
